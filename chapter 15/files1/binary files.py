@@ -1,0 +1,6 @@
+f1 = open("C:\\Users\pc\\Downloads\\images.jpg","rb")
+f2 = open("C:\\Users\pc\\Downloads\\images1.jpg","wb")
+data =f1.read()
+f2.write(data)
+f1.close()
+f2.close()
